@@ -1,0 +1,18 @@
+/****************************************************************************
+ * p n g 2 l c d
+ *
+ * Copyright (c) 2011 Marcus Jansson,
+ * <mjansson256@yahoo.se>
+ *
+ * This is a hack!
+ * Feed me with .png file
+ * Limited error handling.
+ *
+ ****************************************************************************/
+
+ BUGREPORTING:
+ ---------------
+ Send an email to the author.
+ State which version of png2lcd you are using.
+ State the error and attach any error output from the program.
+ Attach your .png file to the email.

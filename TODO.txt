@@ -1,0 +1,31 @@
+/****************************************************************************
+ * p n g 2 l c d
+ *
+ * Copyright (c) 2011 Marcus Jansson,
+ * <mjansson256@yahoo.se>
+ *
+ * This is a hack!
+ * Feed me with .png file
+ * Limited error handling.
+ *
+ ****************************************************************************/
+
+ PNG2LCD converter
+
+TODO:
+------
+
+* Options:
+	-a FILENAME --append FILENAME, Append converted .h data to filename
+	-u FILENAME --update FILENAME, Update converted .h data in filename
+	-n NAME, use this name istead of the filename
+	-s, Strip leading directories_ and _png from the generated name
+
+	-v --verbose
+	-V --version	(now -v is version)
+
+* A list of files should be possible to give.
+
+* A stream containing the names of the files to convert should be possible to give:
+e.g. png2lcd convertThese.txt
+e.g. ls|png2lcd
